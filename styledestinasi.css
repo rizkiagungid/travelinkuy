@@ -1,0 +1,80 @@
+.atas{
+    margin-top: 50px;
+}
+
+.kartu1{
+    margin-top: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+    
+}
+
+.kartu2{
+    margin-top: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.search {
+    padding:8px 15px;
+    background:rgba(255, 255, 255, 0.822);
+    border:0px solid #dbdbdb;
+}
+
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #53bd84;
+    background-color:#53bd84;
+    color:#fafafa;
+}
+.card-title{
+    color: white;
+}
+.card-text{
+    color: white;
+}
+
+.rating{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotateY(180deg);
+	display: flex;
+}
+.rating input{
+	display: none;
+}
+.rating label{
+	display: block;
+	cursor: pointer;
+	width: 50px;
+	/*background: #ccc;*/
+}
+.rating label:before{
+	content:'\f005';
+	font-family: fontAwesome;
+	position: relative;
+	display: block;
+	font-size: 50px;
+	color: #101010;
+}
+.rating label:after{
+	content:'\f005';
+	font-family: fontAwesome;
+	position: absolute;
+	display: block;
+	font-size: 50px;
+	color: #fffa00;
+	top:0;
+	opacity: 0;
+	transition: .5s;
+	text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+.rating label:hover:after,
+.rating label:hover ~ label:after,
+.rating input:checked ~ label:after
+{
+	opacity: 1;
+}

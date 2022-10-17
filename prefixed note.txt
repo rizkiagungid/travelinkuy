@@ -1,0 +1,32 @@
+PRE-FIXED Note
+- Cek Semua Responsive Page 
+- tiket botton pake?
+
+Home
+- text slide di paling atas ke tengahin dikit ((UDAH))
+- video vlog home sesuai in ((UDAH))
+- logo tipe kategori sesuai in
+- footer rapihin sesuaiin + hubungi kami link in
+
+About
+- quotes
+- masukin foto team
+- footer rapihin
+
+Contact
+- footer rapihin
+
+artikel
+- share link
+- footer rapihin
+
+all-tipe destinasi
+- slide yang bawah next/preview nya agak ke pojokin
+- footer
+
+all-destinasi
+- video vlog sesuaiin
+- lokasi  map sesuaiin
+- share link
+- tiket?
+- footer rapihin

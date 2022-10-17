@@ -1,0 +1,175 @@
+/* background page */
+.bg-page-about{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    margin-top: 50px;
+}
+
+.bg-page-about h1{
+    z-index: 1;
+    color: #fff;
+}
+
+.bg-page-about .img-bg-page{
+    display: flex;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+/* end background page */
+
+.border-bg-page{
+    height: 10px;
+    background-color: #66CCFF;
+    width: 100%;
+}
+
+/* content about us */
+.content-about-us{
+    margin-top: 40px;
+}
+
+.column-atas-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.column-bawah-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.img-logo-web{
+    width: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card-content-about{
+    width: 55%;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(#66ccff38, #fff);
+}
+
+.card-kanan-atas{
+    border-top-right-radius: 0; border-bottom-right-radius: 0;
+    margin-left: 20px;
+}
+
+.card-kiri-bawah{
+    border-top-left-radius: 0; border-bottom-left-radius: 0;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    .content-about-us{
+        padding: 0 10px;
+    }
+
+    .column-atas-content{
+        flex-direction: column;
+    }
+
+    .column-bawah-content{
+        flex-direction: column;
+    }
+
+    .card-kanan-atas{
+        border-radius: 10px;
+        margin-left: 0;
+    }
+
+    .card-kiri-bawah{
+        border-radius: 10px;
+        margin-right: 0;
+    }
+
+    .img-logo-web{
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .card-content-about{
+        width: 100%;
+    }
+}
+/* end content about us */
+
+/* quotes */
+.column-qoutes{
+    position: relative;
+    width: 100%;
+    padding: 60px 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 20px;
+}
+
+.txt-quotes{
+    width: 50%;
+    color: #fff;
+    z-index: 1;
+    align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .column-qoutes{
+        padding: 60px 10px;
+    }
+
+    .txt-quotes{
+        width: 70%;
+    }
+}
+/* end quotes */
+
+/* meet our team */
+.meet-our-team{
+    padding: 40px 0;
+}
+
+.column-card-meet{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-meet-our-team{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    width: calc(70%/3);
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin: 0px 0 40px 40px;
+    box-shadow: 0 8px 10px -1px rgba(0,0,0,0.3);
+}
+
+@media only screen and (max-width: 767px) {
+    .column-card-meet{
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .card-meet-our-team{
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+}
+/* end meet our team */

@@ -1,0 +1,155 @@
+/* background page */
+.bg-page-contact{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    margin-top: 50px;
+}
+
+.bg-page-contact h1{
+    z-index: 1;
+    color: #fff;
+}
+/* end background page */
+
+/* how we can help */
+.border-bg-page{
+    height: 10px;
+    background-color: #66CCFF;
+    width: 100%;
+}
+
+.how-we-can-help{
+    margin-top: 20px;
+}
+
+.how-we-can-help p{
+    margin-top: 10px;
+}
+
+.how-we-can-help .icon-page-contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.how-we-can-help .icon-page-contact .icon-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 60px;
+    width: auto;
+    border-radius: 5px;
+    background-color: #66CCFF;
+    margin: 10px 0 0 10px;
+    box-shadow: 0 6px 10px -1px rgba(0,0,0,0.2);
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.how-we-can-help .icon-page-contact .icon-contact .img-icon-contact{
+    height: auto;
+    width: 60px;
+    object-position: center;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 576px) {
+    .how-we-can-help .icon-page-contact .icon-contact{
+        width: 100%;
+        padding: 60px 0;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+}
+/* end how we can help */
+
+.img-bg-page{
+    display: flex;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+/* form feedback */
+.container-form-feedback{
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container-form-feedback h3{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.container-form-feedback .column-input-feedback{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-form-feedback .column-input-feedback .column-kiri-input{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.container-form-feedback .column-input-feedback .column-kanan-input{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.label-input-feedback{
+    display: flex;
+}
+
+.input-feedback{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+}
+
+.input-feedback:focus{
+    border: 1px solid #66CCFF;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-submit-feedback{
+    width: 40%;
+    background-color: #66CCFF;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-submit-feedback:hover{
+    background-color: #0d6efd;
+}
+
+.err-message{
+    display: flex;
+    color: red;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+/* end form feedback */
+
+/* feedback */
+
+/* end feedback */

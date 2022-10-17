@@ -1,0 +1,222 @@
+.navbar-expand-lg {
+    background-color: #66CCFF;
+    font-size:19px;
+    
+}
+.navbar-nav{
+    position:relative;
+}
+
+.carousel-caption{
+    top: 200px;
+}
+
+.carousel-caption h2{
+    font-size: 60px;
+    margin-bottom: 10px;
+    margin-top: 70px;
+
+}
+
+.rounded-image1{
+    width: 50px;
+    height: 60px;
+    background: #4e98ec;
+    border-radius: 100%;
+    border: 1px;
+    padding: 4px;
+    box-shadow: 1px 1px 1px 3px rgb(255, 255, 255);
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rounded-image2{
+    width: 50px;
+    height: 60px;
+    background: #4e98ec;
+    border-radius: 100%;
+    border: 1px;
+    padding: 4px;
+    box-shadow: 1px 1px 1px 3px rgb(255, 255, 255);
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rounded-image3{
+    width: 50px;
+    height: 60px;
+    background: #4e98ec;
+    border-radius: 100%;
+    border: 1px;
+    padding: 4px;
+    box-shadow: 1px 1px 1px 3px rgb(255, 255, 255);
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rounded-image4{
+    width: 50px;
+    height: 60px;
+    background: #4e98ec;
+    border-radius: 100%;
+    border: 1px;
+    padding: 4px;
+    box-shadow: 1px 1px 1px 3px rgb(255, 255, 255);
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rounded-image5{
+    width: 50px;
+    height: 60px;
+    background: #4e98ec;
+    border-radius: 100%;
+    border: 1px;
+    padding: 4px;
+    box-shadow: 1px 1px 1px 3px rgb(255, 255, 255);
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rounded-image-feedback{
+border-radius: 100px;
+width: 150px;
+height: 120px;
+}
+.status-ig {
+    background-color: #66CCFF;
+    word-spacing: normal;   
+}
+
+.view-profile{
+    text-decoration: none;
+    color: #888;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #888;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.view-profile:hover{
+    color: blue;
+    border: 1px solid blue;
+}
+
+.tipe-destinasi{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapp-footer{
+    position: relative;
+}
+
+.tipe-destinasi h1{
+    color: white;
+}
+
+.content-footer{
+    position: relative;
+    z-index: 1;
+}
+
+.container-bottom-footer{
+    margin-top: 40px;
+}
+
+.txt-color-group{
+    color: #fff;
+}
+
+.content-footer .column-icon-destinasi{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.column-icon-destinasi .list-icon-feedback{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.column-icon-destinasi .list-icon-feedback .icon-feedback{
+    height: 60px;
+    width: 60px;
+    border-radius: 500px;
+    object-fit: cover;
+    object-position: center;
+    padding: 10px;
+    background-color: #fff;
+}
+
+/* btn profile */
+.btn-profile{
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.btn-profile p{
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-profile .img-profile{
+    display: flex;
+    height: 45px;
+    width: 45px;
+    border-radius: 500px;
+    border: 2px solid #fff;
+    margin-right: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+/* end btn profile */
+
+.column-icon-destinasi .list-icon-feedback .name-icon{
+    font-size: 14px;
+}
+
+/*
+    sumber gambar : https://www.freepik.com/free-vector/flat-cityscape-pack_829214.htm
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.bg{
+    position: relative;
+    background: url(bg.png); 
+    height: 80vh;
+    background-size: cover;
+    background-repeat: repeat-x;
+    animation: animate 15s linear infinite;
+}
+
+.mobil{
+    position: absolute;
+    bottom: 0;
+}
+
+@keyframes animate{
+    from{
+        background-position: 0 0;
+    }to{
+        background-position: 100% 0;
+    }
+}
+
+#more {display: none;}
